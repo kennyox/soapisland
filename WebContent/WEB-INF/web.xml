@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="http://java.sun.com/xml/ns/javaee"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
+	id="WebApp_ID" version="3.0">
+	<display-name>BOT</display-name>
+	<session-config>
+		<session-timeout>0</session-timeout>
+	</session-config>
+	<env-entry>
+		<env-entry-name>LINE_BOT_CHANNEL_SECRET</env-entry-name>
+		<env-entry-type>java.lang.String</env-entry-type>
+		<env-entry-value>dd1b90e8c58eba18af65e2870b43621d</env-entry-value>
+	</env-entry>
+	<env-entry>
+		<env-entry-name>LINE_BOT_CHANNEL_TOKEN</env-entry-name>
+		<env-entry-type>java.lang.String</env-entry-type>
+		<env-entry-value>ieXObTETz9czzwwMkY/Ki1GgDm+Hve4+iYEcain/TpwA7WQsvA4mCntqqYm10wkC89fTy/3A92IgUduJrYDy3t7W7zZ3EwVO0xM97ZxY5FZvkskmzH/GpFQLTz3I76qAK2m/Cx024aVNbIj+TM5Q1gdB04t89/1O/w1cDnyilFU=</env-entry-value>
+	</env-entry>
+
+</web-app>
